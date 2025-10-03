@@ -11,5 +11,9 @@ public class Caminhao extends Veiculo{
     public void setcapacidadeCarga(double capacidadeCarga){
         this.capacidadeCarga = capacidadeCarga;
     }
+    public void mostrarDados(){
+        super.mostrarDados();
+        System.out.println("Capacidade de Carga: " + capacidadeCarga);
+    }
 }
 

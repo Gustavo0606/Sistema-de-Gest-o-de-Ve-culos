@@ -10,5 +10,9 @@ public int getnumPortas(){
 public void setnumPortas(int numPortas){
     this.numPortas = numPortas;
 }
+public void mostrarDados(){
+    super.mostrarDados();
+    System.out.println("Numero de Portas: " + numPortas);
+}
 }
 

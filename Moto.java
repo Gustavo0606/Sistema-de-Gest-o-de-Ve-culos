@@ -10,6 +10,9 @@ public int getcilindradas(){
 public int setcilindradas(){
     return cilindradas;
 }
-
+public void mostrarDados(){
+    super.mostrarDados();
+    System.out.println("Cilindradas: " + cilindradas);
+}
 
 }
