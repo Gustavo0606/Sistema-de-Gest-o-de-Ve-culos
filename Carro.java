@@ -10,9 +10,14 @@ public int getnumPortas(){
 public void setnumPortas(int numPortas){
     this.numPortas = numPortas;
 }
-public void mostrarDados(){
+public void mostrarDados(boolean verNumPortas) {
+    if (verNumPortas == false) {
+        super.mostrarDados();
+        System.out.println("-------------------------");
+    } else {
     super.mostrarDados();
     System.out.println("Numero de Portas: " + numPortas);
+    System.out.println("-------------------------");
 }
 }
-
+}

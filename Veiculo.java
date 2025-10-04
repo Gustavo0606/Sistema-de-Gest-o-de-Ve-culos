@@ -2,6 +2,7 @@ public class Veiculo {
     private String placa;
     private String marca;
     private double preco;
+
     
     public Veiculo (String placa, String marca, double preco){
     this.placa = placa;
@@ -32,9 +33,14 @@ public class Veiculo {
     public void setpreco(double preco){
         this.preco = preco;
     }
+    
+
+
 public void mostrarDados(){
     System.out.println("Placa: " + placa);
     System.out.println("Marca: " + marca);
-    System.out.println("Preco: " + preco);
+    System.out.println("Preco: "+ preco +" R$");
+
 }
+
 }
